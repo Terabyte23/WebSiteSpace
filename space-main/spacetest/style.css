@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #ffffff;
+    font-family: "Nunito", serif;
+}
+
+header {
+    background-color: #1a1a1a;
+    padding: 15px 0;
+    border-radius: 30px;
+    width: 75%;
+    margin: 0 auto;
+    z-index: 1001;
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+header .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffcc00;
+    font-family: 'Inter', serif;
+}
+
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background: url('https://wallpaperaccess.com/full/664312.jpg') center/cover no-repeat;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.btn-cta {
+    background-color: #ffcc00;
+    color: #000;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.btn-cta:hover {
+    background-color: #e6b800;
+}
+
+.features {
+    background-color: #111;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.features .feature {
+    margin: 20px 0;
+}
+
+.features img {
+    width: 60px;
+    margin-bottom: 15px;
+}
+
+.features h5 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.info-section {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #222;
+}
+
+.info-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.info-card {
+    background-color: #333;
+    border: none;
+    padding: 30px;
+    border-radius: 10px;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.info-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #1a1a1a;
+    padding: 15px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: snow;
+    font-family: "Nunito", serif;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-family: "Nunito", serif;
+}
+
+footer p {
+    margin-top: 20px;
+}
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    width: 500px; /* Ширина контейнера */
+    height: 300px; /* Высота контейнера */
+    margin: 0 auto; /* Центрируем контейнер */
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 300%; /* Увеличиваем на количество слайдов */
+}
+
+.slides img {
+    width: 500px; /* Ширина картинки */
+    height: 300px; /* Высота картинки */
+    object-fit: cover; /* Картинки не будут искажены, но могут быть обрезаны, чтобы заполнить область */
+    flex-shrink: 0;
+}
+
+
+
